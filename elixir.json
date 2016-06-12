@@ -1,0 +1,19 @@
+{
+  "assetsPath": "resources/assets",
+  "publicPath": "public/assets",
+  "css": {
+    "folder": "css",
+    "outputFolder": "css",
+    "sass": {
+      "folder": "scss"
+    }
+  },
+  "img": {
+    "folder": "img",
+    "outputFolder": "img"
+  },
+  "js": {
+    "folder": "js",
+    "outputFolder": "js"
+  }
+}

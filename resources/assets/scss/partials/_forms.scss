@@ -1,0 +1,17 @@
+label {
+  font-weight: bold;
+}
+
+.modified.valid {
+  @extend .form-control-success;
+
+  border-color: $brand-success;
+  background-image: url($form-icon-success);
+}
+
+.modified.invalid {
+  @extend .form-control-danger;
+
+  border-color: $brand-danger;
+  background-image: url($form-icon-danger);
+}
