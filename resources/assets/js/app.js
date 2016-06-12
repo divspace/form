@@ -27,8 +27,8 @@ Vue.directive('ajax', {
     e.preventDefault();
 
     var firstName = this.el[1].value,
-      lastName = this.el[2].value,
-      emailAddress = this.el[3].value;
+        lastName = this.el[2].value,
+        emailAddress = this.el[3].value;
 
     Vue.http.post('/post', {
       firstName: firstName,
