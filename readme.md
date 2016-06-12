@@ -16,6 +16,7 @@ cd form
 composer install
 npm install
 gulp
+cp .env.example .env
 php artisan key:generate
 php artisan migrate
 valet link
@@ -24,7 +25,3 @@ valet link
 You can then access the site by going to:
 
 `http://form.dev`
-
-Alternatively, you *should* be able to skip installing Valet and just run `php artisan serve` instead of `valet link`, which will allow you to access the site locally on:
-
-`http://localhost:8000`
